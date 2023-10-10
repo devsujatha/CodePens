@@ -1,0 +1,36 @@
+body, h2, ol {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+li a:hover {
+    color: #ff6600;
+}
+
+li:hover {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
